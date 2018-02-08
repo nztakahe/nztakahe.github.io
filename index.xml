@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dwarfstar sysops notes</title>
+    <link>https://nztakahe.github.io/</link>
+    <description>Recent content on Dwarfstar sysops notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 08 Feb 2018 11:15:21 +1300</lastBuildDate>
+    
+	<atom:link href="https://nztakahe.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My First Post</title>
+      <link>https://nztakahe.github.io/posts/my-first-hugo-post/</link>
+      <pubDate>Thu, 08 Feb 2018 11:15:21 +1300</pubDate>
+      
+      <guid>https://nztakahe.github.io/posts/my-first-hugo-post/</guid>
+      <description>This is my first post using Hugo. It is still rough around the edges.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://nztakahe.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 2018 12:00:00 +1300</pubDate>
+      
+      <guid>https://nztakahe.github.io/about/</guid>
+      <description>From a corporate Microsoft background I had strong knowledge of Windows (Server desktop), Active Directory, Exchange, IIS, SQL Server etc. Along with the servers\services I picked up Server Hardware, SANs, Hypervisors (particularly VMWare) and Networking Wireless, Switches and Firewalls and did my fair share of Powershell and vbscript (You used what you could).
+In more recent years I was lucky enough to challenge myself to learn\manage the LAMP - Linux (primarily Centos, Ubuntu), Apache 2.</description>
+    </item>
+    
+    <item>
+      <title>Dart Learnings</title>
+      <link>https://nztakahe.github.io/posts/dart-project/</link>
+      <pubDate>Mon, 18 Dec 2017 11:00:00 +1300</pubDate>
+      
+      <guid>https://nztakahe.github.io/posts/dart-project/</guid>
+      <description>I thought it would be interesting to try learning a new programming langauge.
+So i followed the instructions provided.
+I originally published it to github pages as an experiment. This should now have been moved</description>
+    </item>
+    
+  </channel>
+</rss>

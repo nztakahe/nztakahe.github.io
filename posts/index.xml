@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Dwarfstar sysops notes</title>
+    <link>https://nztakahe.github.io/posts/</link>
+    <description>Recent content in Posts on Dwarfstar sysops notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 08 Feb 2018 11:15:21 +1300</lastBuildDate>
+    
+	<atom:link href="https://nztakahe.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My First Post</title>
+      <link>https://nztakahe.github.io/posts/my-first-hugo-post/</link>
+      <pubDate>Thu, 08 Feb 2018 11:15:21 +1300</pubDate>
+      
+      <guid>https://nztakahe.github.io/posts/my-first-hugo-post/</guid>
+      <description>This is my first post using Hugo. It is still rough around the edges.</description>
+    </item>
+    
+    <item>
+      <title>Dart Learnings</title>
+      <link>https://nztakahe.github.io/posts/dart-project/</link>
+      <pubDate>Mon, 18 Dec 2017 11:00:00 +1300</pubDate>
+      
+      <guid>https://nztakahe.github.io/posts/dart-project/</guid>
+      <description>I thought it would be interesting to try learning a new programming langauge.
+So i followed the instructions provided.
+I originally published it to github pages as an experiment. This should now have been moved</description>
+    </item>
+    
+  </channel>
+</rss>
