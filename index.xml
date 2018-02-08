@@ -12,12 +12,14 @@
     
     
     <item>
-      <title>My First Post</title>
+      <title>My First Published Hugo Post</title>
       <link>https://nztakahe.github.io/posts/my-first-hugo-post/</link>
       <pubDate>Thu, 08 Feb 2018 11:15:21 +1300</pubDate>
       
       <guid>https://nztakahe.github.io/posts/my-first-hugo-post/</guid>
-      <description>This is my first post using Hugo. It is still rough around the edges.</description>
+      <description>This is my first post using Hugo. And yes it is still rough around the edges.
+With a bit more success than
+Hugo Website</description>
     </item>
     
     <item>
