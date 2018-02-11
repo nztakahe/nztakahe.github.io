@@ -6,10 +6,32 @@
     <description>Recent content in Posts on Dwarfstar sysops notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 Feb 2018 11:15:21 +1300</lastBuildDate>
+    <lastBuildDate>Sun, 11 Feb 2018 12:00:00 +1300</lastBuildDate>
     
 	<atom:link href="https://nztakahe.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Teaching Programming to 8 year olds</title>
+      <link>https://nztakahe.github.io/posts/20180211-codeclub_scratch/</link>
+      <pubDate>Sun, 11 Feb 2018 12:00:00 +1300</pubDate>
+      
+      <guid>https://nztakahe.github.io/posts/20180211-codeclub_scratch/</guid>
+      <description>A friend of mine started doing Code Club at the local schools. With the recent christmas holidays I thought it would be a great Father and Son project.
+Starting with the scratch you can find the projects
+Basically it is drag and drop programming and you can create some games quickly - The code club example 3 with a score was a big success.
+I have to say that it has been interesting.</description>
+    </item>
+    
+    <item>
+      <title>DNS Hosting Providers</title>
+      <link>https://nztakahe.github.io/posts/20180210-dns_hosting/</link>
+      <pubDate>Sat, 10 Feb 2018 12:00:00 +1300</pubDate>
+      
+      <guid>https://nztakahe.github.io/posts/20180210-dns_hosting/</guid>
+      <description>So just over a year ago I had the grand idea of registering a domain name. Working with DNS isn&amp;rsquo;t something new and I have done my bit as a sysadmin using windows, bind, AWS Route53, GCP Cloud DNS and some Azure.
+At the time I decided to use GoDaddy. I had used it for a job previously and the price was good. So 10 months later it tried to auto renew for twice the price as the initial purchase but thankfully the credit card I had used had expired.</description>
+    </item>
     
     <item>
       <title>My First Published Hugo Post</title>
