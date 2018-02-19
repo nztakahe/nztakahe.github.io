@@ -39,9 +39,8 @@ At the time I decided to use GoDaddy. I had used it for a job previously and the
       <pubDate>Thu, 08 Feb 2018 11:15:21 +1300</pubDate>
       
       <guid>https://nztakahe.github.io/posts/20180208-my-first-hugo-post/</guid>
-      <description>This is my first post using Hugo. And yes it is still rough around the edges.
-With a bit more success than
-Hugo Website</description>
+      <description>Static HTML Generators This is my first post using Hugo. And yes it is still rough around the edges.  ** Jekyll I had problems getting Jekyll to work that were most likely related to lack of understanding on my part more than issues with the product.
+** HUGO So i started trying Hugo. Initially i tried using the govendor process which had an now reported error which is resolved by removing it from the installation documentation.</description>
     </item>
     
     <item>
@@ -63,15 +62,6 @@ In more recent years I was lucky enough to challenge myself to learn\manage the 
       <description>I thought it would be interesting to try learning a new programming langauge.
 So i followed the instructions provided.
 I originally published it to github pages as an experiment. This should now have been moved</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://nztakahe.github.io/posts/somelinks/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nztakahe.github.io/posts/somelinks/</guid>
-      <description>Some history of software development - Uncle bob! https://www.youtube.com/watch?v=ecIWPzGEbFc</description>
     </item>
     
   </channel>

@@ -83,11 +83,33 @@ ga('create', 'UA-113773767-1', 'auto');
             <h1><a href="https://nztakahe.github.io/posts/20180208-my-first-hugo-post/">My First Published Hugo Post</a></h1>
             <span class="post-date">Feb 8, 2018 </span>
             <div class="post-content">
-                <p>This is my first post using Hugo.  And yes it is still rough around the edges.</p>
+                <ul>
+<li>Static HTML Generators
+This is my first post using Hugo.  And yes it is still rough around the edges.</li>
+</ul>
 
-<p>With a bit more success than</p>
+<p>** Jekyll
+I had problems getting Jekyll to work that were most likely related to lack of understanding on my part more than issues with the product.</p>
 
-<p><a href="https://gohugo.io/getting-started">Hugo Website</a></p>
+<p>** HUGO
+So i started trying Hugo.  Initially i tried using the govendor process which had an now <a href="https://github.com/gohugoio/hugo/issues/4390">reported error</a> which is <a href="https://github.com/gohugoio/hugoDocs/commit/c5963edaa07dfcda3204f7eabedea17228912a14">resolved</a> by removing it from the installation documentation.  So download and install binary <a href="https://github.com/gohugoio/hugo/releases">from</a>.</p>
+
+<p>** Themes
+After getting Hugo running with the empty website I had a look at themes - who doesn&rsquo;t want it to look cool without having to do much work.</p>
+
+<p>So it tried install [all themes]<a href="https://gohugo.io/themes/installing-and-using-themes/#install-themes">https://gohugo.io/themes/installing-and-using-themes/#install-themes</a> which took some time.  While i was looking at that I found the command line option &ldquo;-t, &ndash;theme string&rdquo; which allowed changing the theme without modifying the config.yaml.  I did find that there was not a standard set of configuration for the themes like email\facebook identity and that each theme required reading the documentation and modifying the config file.</p>
+
+<p>I also came across the git submodule commands for themes</p>
+
+<pre><code>   git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke;\
+</code></pre>
+
+<p>and <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">later</a> with the build process.  However when attempting the process from a different laptop the build\submodule update process has not worked as expected.</p>
+
+<p>In summary I still have some knowledge gaps with the git submodule.  The current workaround is doing using a git clone in a different folder and using the hugo build folder  &ldquo;&lsquo;hugo -d &ldquo;..\nztakahe.github.io&rdquo;&ldquo;&rsquo; and doing a git commit -a -m &ldquo;Site rebuild&rdquo; from that directory.  Another work in progress.</p>
+
+<p>** Notes
+This <a href="https://github.com/gohugoio/hugoDocs">source</a> appears to be <a href="https://gohugo.io/getting-started">Hugo Website</a> for some future reference.</p>
 
             </div>
             
