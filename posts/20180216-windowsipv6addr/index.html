@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>  &middot; Dwarfstar sysops notes </title>
+
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="generator" content="Hugo 0.31-DEV" />
+
+
+<script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://nztakahe.github.io/css/nix.css">
+
+
+<link href="https://fonts.googleapis.com/css?family=Inconsolata|Open+Sans|Roboto|Montserrat|Concert+One" rel="stylesheet">
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+				  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-113773767-1', 'auto');
+	  ga('send', 'pageview');
+
+</script>
+
+
+    </head>
+
+    <body>
+        <header>
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse font-header">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" id="green-terminal" href=https://nztakahe.github.io/>michael@dwarfstar ~ $</a>
+		</div>
+
+		
+		<div class="collapse navbar-collapse" id="navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right">
+				<li>
+					<a href="https://nztakahe.github.io/">/home/michael</a>
+				</li>
+				
+				
+				<li >
+					<a href="/about">~/about</a>
+				</li>
+				
+				
+				<li >
+					<a href="/posts">~/posts</a>
+				</li>
+				
+
+			</ul>
+		</div>
+	</div>
+</nav>
+</header>
+
+        <div class="container wrapper">
+            <h1><a href="https://nztakahe.github.io/posts/20180216-windowsipv6addr/"></a></h1>
+            <span class="post-date">Jan 1, 0001 </span>
+            <div class="post-content">
+                <p>Ethernet Adapter under Hypervisor bridge had a static ipv6 dns server with a local IP address</p>
+
+<p>&rdquo;&rsquo;
+<em>netsh int ipv6 sh int</em></p>
+
+<p>Idx     Met         MTU          State                Name</p>
+
+<hr />
+
+<p>16          25        1500  disconnected  Local Area Connection* 3
+  1          75  4294967295  connected     Loopback Pseudo-Interface 1
+ 15          35        1500  connected     vEthernet (vWireless)
+ 23          15        1500  connected     vEthernet (Default Switch)
+&ldquo;&rsquo;</p>
+
+<p>&rdquo;&rsquo;
+&gt;<em>netsh int ipv6 show dnsservers</em></p>
+
+<p>Configuration for interface &ldquo;vEthernet (Default Switch)&rdquo;
+    DNS servers configured through DHCP:  fec0:0:0:ffff::1%1
+                                          fec0:0:0:ffff::2%1
+                                          fec0:0:0:ffff::3%1
+    Register with which suffix:           None</p>
+
+<p>Configuration for interface &ldquo;Local Area Connection* 3&rdquo;
+    DNS servers configured through DHCP:  fec0:0:0:ffff::1%1
+                                          fec0:0:0:ffff::2%1
+                                          fec0:0:0:ffff::3%1
+    Register with which suffix:           Primary only</p>
+
+<p>Configuration for interface &ldquo;vEthernet (vWireless)&rdquo;
+    DNS servers configured through DHCP:  fe80::1%15
+    Register with which suffix:           Primary only</p>
+
+<p>Configuration for interface &ldquo;Loopback Pseudo-Interface 1&rdquo;
+    Statically Configured DNS Servers:    fec0:0:0:ffff::1%1
+                                          fec0:0:0:ffff::2%1
+                                          fec0:0:0:ffff::3%1
+    Register with which suffix:           Primary only</p>
+
+<p>&rdquo;&rsquo;</p>
+
+<p>&rdquo;&rsquo;
+&gt;<em>netsh int ipv6 sh addr</em></p>
+
+<p>Interface 16: Local Area Connection* 3</p>
+
+<p>Addr Type  DAD State   Valid Life Pref. Life Address</p>
+
+<hr />
+
+<p>Other      Deprecated    infinite   infinite fe80::78a9:3abe:7c8f:b5c1%16</p>
+
+<p>Interface 1: Loopback Pseudo-Interface 1</p>
+
+<p>Addr Type  DAD State   Valid Life Pref. Life Address</p>
+
+<hr />
+
+<p>Other      Preferred     infinite   infinite ::1</p>
+
+<p>Interface 15: vEthernet (vWireless)</p>
+
+<p>Addr Type  DAD State   Valid Life Pref. Life Address</p>
+
+<hr />
+
+<p>Other      Preferred     infinite   infinite fe80::b47c:bc69:f064:85d9%15</p>
+
+<p>Interface 23: vEthernet (Default Switch)</p>
+
+<p>Addr Type  DAD State   Valid Life Pref. Life Address</p>
+
+<hr />
+
+<p>Other      Preferred     infinite   infinite fe80::8df7:1b8c:5751:2d4a%23
+&ldquo;&rsquo;</p>
+
+            </div>
+            
+            <div class="post-comments">
+                
+            </div>
+            
+            <div class="push"></div>
+        </div>
+        <footer class="footer text-center">
+<p>Copyright &copy; 2018 Michael Menzies -
+<span class="credit">
+	Powered by
+	<a target="_blank" href="https://gohugo.io">Hugo</a>
+	and
+	<a target="_blank" href="https://github.com/LordMathis/hugo-theme-nix/">Nix</a> theme.
+</span>
+</p>
+</footer>
+
+    </body>

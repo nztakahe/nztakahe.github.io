@@ -35,10 +35,10 @@ At the time I decided to use GoDaddy. I had used it for a job previously and the
     
     <item>
       <title>My First Published Hugo Post</title>
-      <link>https://nztakahe.github.io/posts/my-first-hugo-post/</link>
+      <link>https://nztakahe.github.io/posts/20180208-my-first-hugo-post/</link>
       <pubDate>Thu, 08 Feb 2018 11:15:21 +1300</pubDate>
       
-      <guid>https://nztakahe.github.io/posts/my-first-hugo-post/</guid>
+      <guid>https://nztakahe.github.io/posts/20180208-my-first-hugo-post/</guid>
       <description>This is my first post using Hugo. And yes it is still rough around the edges.
 With a bit more success than
 Hugo Website</description>
@@ -63,6 +63,29 @@ In more recent years I was lucky enough to challenge myself to learn\manage the 
       <description>I thought it would be interesting to try learning a new programming langauge.
 So i followed the instructions provided.
 I originally published it to github pages as an experiment. This should now have been moved</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://nztakahe.github.io/posts/20180216-windowsipv6addr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nztakahe.github.io/posts/20180216-windowsipv6addr/</guid>
+      <description>Ethernet Adapter under Hypervisor bridge had a static ipv6 dns server with a local IP address
+&amp;rdquo;&amp;rsquo; netsh int ipv6 sh int
+Idx Met MTU State Name
+16 25 1500 disconnected Local Area Connection* 3 1 75 4294967295 connected Loopback Pseudo-Interface 1 15 35 1500 connected vEthernet (vWireless) 23 15 1500 connected vEthernet (Default Switch) &amp;ldquo;&amp;rsquo;
+&amp;rdquo;&amp;rsquo; &amp;gt;netsh int ipv6 show dnsservers
+Configuration for interface &amp;ldquo;vEthernet (Default Switch)&amp;rdquo; DNS servers configured through DHCP: fec0:0:0:ffff::1%1 fec0:0:0:ffff::2%1 fec0:0:0:ffff::3%1 Register with which suffix: None</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://nztakahe.github.io/posts/somelinks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nztakahe.github.io/posts/somelinks/</guid>
+      <description>Some history of software development - Uncle bob! https://www.youtube.com/watch?v=ecIWPzGEbFc</description>
     </item>
     
   </channel>
