@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://nztakahe.github.io/posts/20180215-ide/</loc>
+    <lastmod>2018-02-15T12:00:00+13:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://nztakahe.github.io/posts/20180211-codeclub_scratch/</loc>
     <lastmod>2018-02-11T12:00:00+13:00</lastmod>
   </url>
@@ -34,13 +39,13 @@
   
   <url>
     <loc>https://nztakahe.github.io/</loc>
-    <lastmod>2018-02-11T12:00:00+13:00</lastmod>
+    <lastmod>2018-02-15T12:00:00+13:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://nztakahe.github.io/posts/</loc>
-    <lastmod>2018-02-11T12:00:00+13:00</lastmod>
+    <lastmod>2018-02-15T12:00:00+13:00</lastmod>
     <priority>0</priority>
   </url>
   

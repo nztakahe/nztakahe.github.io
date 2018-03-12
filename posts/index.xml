@@ -6,10 +6,24 @@
     <description>Recent content in Posts on Dwarfstar sysops notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Feb 2018 12:00:00 +1300</lastBuildDate>
+    <lastBuildDate>Thu, 15 Feb 2018 12:00:00 +1300</lastBuildDate>
     
 	<atom:link href="https://nztakahe.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Visual Code (IDE)</title>
+      <link>https://nztakahe.github.io/posts/20180215-ide/</link>
+      <pubDate>Thu, 15 Feb 2018 12:00:00 +1300</pubDate>
+      
+      <guid>https://nztakahe.github.io/posts/20180215-ide/</guid>
+      <description>Selecting and IDE When trying to do some node.js i did some quick searching for and IDE and after briefly trying Sublime for 5 minutes after having issues with the package handling I moved to Visual Code.
+Install Windows x32 installer
+older x64 link but there should be a way to the latest!
+https://code.visualstudio.com/updates https://code.visualstudio.com/docs?start=true
+Install Centos Install Visual Code
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc sudo sh -c &#39;echo -e &amp;quot;[code]\nname=Visual Studio Code\nbaseurl=https://packages.</description>
+    </item>
     
     <item>
       <title>Teaching Programming to 8 year olds</title>
