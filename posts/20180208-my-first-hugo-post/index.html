@@ -6,7 +6,7 @@
 
         <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-<meta name="generator" content="Hugo 0.37.1" />
+<meta name="generator" content="Hugo 0.36.1" />
 
 
 <script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
@@ -64,6 +64,11 @@ ga('create', 'UA-113773767-1', 'auto');
 				
 				
 				<li >
+					<a href="/links">~/links</a>
+				</li>
+				
+				
+				<li >
 					<a href="/about">~/about</a>
 				</li>
 				
@@ -104,12 +109,13 @@ After getting Hugo running with the empty website I had a look at themes - who d
 <pre><code>   git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke;\
 </code></pre>
 
-<p>and <a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">later</a> with the build process.  However when attempting the process from a different laptop the build\submodule update process has not worked as expected.</p>
+<p>I still have some knowledge gaps with the git submodule.</p>
 
-<p>In summary I still have some knowledge gaps with the git submodule.  The current workaround is doing using a git clone in a different folder and using the hugo build folder  &ldquo;&lsquo;hugo -d &ldquo;..\nztakahe.github.io&rdquo;&ldquo;&rsquo; and doing a git commit -a -m &ldquo;Site rebuild&rdquo; from that directory.  Another work in progress.</p>
+<p>** Build and Deploy
+Hugo has the following <a href="https://gohugo.io/hosting-and-deployment/">article</a> for build and hosting.  I have not mastered the submodule process and workaround is using a different folder and using the hugo build folder  &ldquo;&lsquo;hugo -d &ldquo;..\nztakahe.github.io&rdquo;&ldquo;&rsquo; and doing a git commit -a -m &ldquo;Site rebuild&rdquo; from that directory.</p>
 
-<p>** Notes
-This <a href="https://github.com/gohugoio/hugoDocs">source</a> appears to be <a href="https://gohugo.io/getting-started">Hugo Website</a> for some future reference.</p>
+<p>** Other Notes
+This <a href="https://github.com/gohugoio/hugoDocs">source</a> appears to be source for <a href="https://gohugo.io/getting-started">Hugo Website</a> for some future reference.</p>
 
             </div>
             
